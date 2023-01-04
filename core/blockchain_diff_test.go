@@ -29,17 +29,17 @@ import (
 
 	"golang.org/x/crypto/sha3"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state/snapshot"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/Jeeyb/bsc/common"
+	"github.com/Jeeyb/bsc/consensus/ethash"
+	"github.com/Jeeyb/bsc/core/rawdb"
+	"github.com/Jeeyb/bsc/core/state/snapshot"
+	"github.com/Jeeyb/bsc/core/types"
+	"github.com/Jeeyb/bsc/core/vm"
+	"github.com/Jeeyb/bsc/crypto"
+	"github.com/Jeeyb/bsc/ethdb"
+	"github.com/Jeeyb/bsc/ethdb/memorydb"
+	"github.com/Jeeyb/bsc/params"
+	"github.com/Jeeyb/bsc/rlp"
 )
 
 var (

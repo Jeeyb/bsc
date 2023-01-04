@@ -24,21 +24,21 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/asm"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Jeeyb/bsc/accounts/abi"
+	"github.com/Jeeyb/bsc/common"
+	"github.com/Jeeyb/bsc/consensus"
+	"github.com/Jeeyb/bsc/core"
+	"github.com/Jeeyb/bsc/core/asm"
+	"github.com/Jeeyb/bsc/core/rawdb"
+	"github.com/Jeeyb/bsc/core/state"
+	"github.com/Jeeyb/bsc/core/types"
+	"github.com/Jeeyb/bsc/core/vm"
+	"github.com/Jeeyb/bsc/eth/tracers"
+	"github.com/Jeeyb/bsc/eth/tracers/logger"
+	"github.com/Jeeyb/bsc/params"
 
 	// force-load js tracers to trigger registration
-	_ "github.com/ethereum/go-ethereum/eth/tracers/js"
+	_ "github.com/Jeeyb/bsc/eth/tracers/js"
 )
 
 func TestDefaults(t *testing.T) {

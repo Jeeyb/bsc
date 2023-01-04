@@ -22,9 +22,9 @@ import (
 
 	"golang.org/x/crypto/sha3"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/Jeeyb/bsc/common"
+	"github.com/Jeeyb/bsc/core/types"
+	"github.com/Jeeyb/bsc/rlp"
 )
 
 // Constants to match up protocol versions and messages

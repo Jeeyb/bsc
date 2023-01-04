@@ -23,15 +23,15 @@ import (
 	"math/big"
 	"mime"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/consensus/clique"
-	"github.com/ethereum/go-ethereum/consensus/parlia"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
+	"github.com/Jeeyb/bsc/accounts"
+	"github.com/Jeeyb/bsc/common"
+	"github.com/Jeeyb/bsc/common/hexutil"
+	"github.com/Jeeyb/bsc/consensus/clique"
+	"github.com/Jeeyb/bsc/consensus/parlia"
+	"github.com/Jeeyb/bsc/core/types"
+	"github.com/Jeeyb/bsc/crypto"
+	"github.com/Jeeyb/bsc/rlp"
+	"github.com/Jeeyb/bsc/signer/core/apitypes"
 )
 
 // sign receives a request and produces a signature

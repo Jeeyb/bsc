@@ -25,8 +25,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/Jeeyb/bsc/common"
+	"github.com/Jeeyb/bsc/core/types"
 )
 
 var txSortedMapPool = sync.Pool{

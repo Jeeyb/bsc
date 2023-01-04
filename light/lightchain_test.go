@@ -22,13 +22,13 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Jeeyb/bsc/common"
+	"github.com/Jeeyb/bsc/consensus/ethash"
+	"github.com/Jeeyb/bsc/core"
+	"github.com/Jeeyb/bsc/core/rawdb"
+	"github.com/Jeeyb/bsc/core/types"
+	"github.com/Jeeyb/bsc/ethdb"
+	"github.com/Jeeyb/bsc/params"
 )
 
 // So we can deterministically seed different blockchains

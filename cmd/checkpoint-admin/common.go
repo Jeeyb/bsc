@@ -19,15 +19,15 @@ package main
 import (
 	"strconv"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/accounts/external"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/contracts/checkpointoracle"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/Jeeyb/bsc/accounts"
+	"github.com/Jeeyb/bsc/accounts/abi/bind"
+	"github.com/Jeeyb/bsc/accounts/external"
+	"github.com/Jeeyb/bsc/cmd/utils"
+	"github.com/Jeeyb/bsc/common"
+	"github.com/Jeeyb/bsc/contracts/checkpointoracle"
+	"github.com/Jeeyb/bsc/ethclient"
+	"github.com/Jeeyb/bsc/params"
+	"github.com/Jeeyb/bsc/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

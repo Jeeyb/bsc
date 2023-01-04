@@ -22,11 +22,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/tracers"
+	"github.com/Jeeyb/bsc/common"
+	"github.com/Jeeyb/bsc/common/hexutil"
+	"github.com/Jeeyb/bsc/core/vm"
+	"github.com/Jeeyb/bsc/crypto"
+	"github.com/Jeeyb/bsc/eth/tracers"
 )
 
 func init() {

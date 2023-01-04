@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/Jeeyb/bsc/common"
 )
 
 func TestImpactOfValidatorOutOfService(t *testing.T) {

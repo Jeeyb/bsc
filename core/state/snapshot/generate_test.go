@@ -23,13 +23,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/Jeeyb/bsc/common"
+	"github.com/Jeeyb/bsc/core/rawdb"
+	"github.com/Jeeyb/bsc/ethdb"
+	"github.com/Jeeyb/bsc/ethdb/memorydb"
+	"github.com/Jeeyb/bsc/log"
+	"github.com/Jeeyb/bsc/rlp"
+	"github.com/Jeeyb/bsc/trie"
 	"golang.org/x/crypto/sha3"
 )
 

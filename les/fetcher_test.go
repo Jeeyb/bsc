@@ -21,13 +21,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Jeeyb/bsc/consensus/ethash"
+	"github.com/Jeeyb/bsc/core"
+	"github.com/Jeeyb/bsc/core/rawdb"
+	"github.com/Jeeyb/bsc/core/types"
+	"github.com/Jeeyb/bsc/light"
+	"github.com/Jeeyb/bsc/p2p/enode"
+	"github.com/Jeeyb/bsc/params"
 )
 
 // verifyImportEvent verifies that one single event arrive on an import channel.

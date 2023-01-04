@@ -21,14 +21,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/les/utils"
-	"github.com/ethereum/go-ethereum/les/vflux"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/nodestate"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/Jeeyb/bsc/common/mclock"
+	"github.com/Jeeyb/bsc/ethdb"
+	"github.com/Jeeyb/bsc/les/utils"
+	"github.com/Jeeyb/bsc/les/vflux"
+	"github.com/Jeeyb/bsc/log"
+	"github.com/Jeeyb/bsc/p2p/enode"
+	"github.com/Jeeyb/bsc/p2p/nodestate"
+	"github.com/Jeeyb/bsc/rlp"
 )
 
 var (

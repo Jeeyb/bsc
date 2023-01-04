@@ -22,9 +22,9 @@ import (
 	"encoding/binary"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/Jeeyb/bsc/common/mclock"
+	"github.com/Jeeyb/bsc/crypto"
+	"github.com/Jeeyb/bsc/p2p/enode"
 	"github.com/hashicorp/golang-lru/simplelru"
 )
 

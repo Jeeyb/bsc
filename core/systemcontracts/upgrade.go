@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Jeeyb/bsc/common"
+	"github.com/Jeeyb/bsc/core/state"
+	"github.com/Jeeyb/bsc/log"
+	"github.com/Jeeyb/bsc/params"
 )
 
 type UpgradeConfig struct {

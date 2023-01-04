@@ -17,11 +17,11 @@
 package core
 
 import (
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Jeeyb/bsc/consensus"
+	"github.com/Jeeyb/bsc/core/state"
+	"github.com/Jeeyb/bsc/core/types"
+	"github.com/Jeeyb/bsc/core/vm"
+	"github.com/Jeeyb/bsc/params"
 )
 
 const prefetchThread = 3

@@ -26,17 +26,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/gopool"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state/snapshot"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/Jeeyb/bsc/common"
+	"github.com/Jeeyb/bsc/common/gopool"
+	"github.com/Jeeyb/bsc/core/rawdb"
+	"github.com/Jeeyb/bsc/core/state/snapshot"
+	"github.com/Jeeyb/bsc/core/types"
+	"github.com/Jeeyb/bsc/crypto"
+	"github.com/Jeeyb/bsc/ethdb"
+	"github.com/Jeeyb/bsc/log"
+	"github.com/Jeeyb/bsc/metrics"
+	"github.com/Jeeyb/bsc/rlp"
+	"github.com/Jeeyb/bsc/trie"
 )
 
 const defaultNumOfSlots = 100

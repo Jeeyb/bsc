@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/Jeeyb/bsc/common"
 )
 
 func TestValidatorSetSort(t *testing.T) {

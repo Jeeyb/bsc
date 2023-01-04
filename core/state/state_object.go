@@ -24,11 +24,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/Jeeyb/bsc/common"
+	"github.com/Jeeyb/bsc/core/types"
+	"github.com/Jeeyb/bsc/crypto"
+	"github.com/Jeeyb/bsc/metrics"
+	"github.com/Jeeyb/bsc/rlp"
 )
 
 var emptyCodeHash = crypto.Keccak256(nil)

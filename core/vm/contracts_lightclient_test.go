@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ethereum/go-ethereum/core/vm/lightclient"
+	"github.com/Jeeyb/bsc/core/vm/lightclient"
 	"github.com/stretchr/testify/require"
 )
 

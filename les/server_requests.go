@@ -20,15 +20,15 @@ import (
 	"encoding/binary"
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/Jeeyb/bsc/common"
+	"github.com/Jeeyb/bsc/core"
+	"github.com/Jeeyb/bsc/core/state"
+	"github.com/Jeeyb/bsc/core/types"
+	"github.com/Jeeyb/bsc/light"
+	"github.com/Jeeyb/bsc/log"
+	"github.com/Jeeyb/bsc/metrics"
+	"github.com/Jeeyb/bsc/rlp"
+	"github.com/Jeeyb/bsc/trie"
 )
 
 // serverBackend defines the backend functions needed for serving LES requests

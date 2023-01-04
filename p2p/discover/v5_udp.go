@@ -29,12 +29,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover/v5wire"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/Jeeyb/bsc/common/mclock"
+	"github.com/Jeeyb/bsc/log"
+	"github.com/Jeeyb/bsc/p2p/discover/v5wire"
+	"github.com/Jeeyb/bsc/p2p/enode"
+	"github.com/Jeeyb/bsc/p2p/enr"
+	"github.com/Jeeyb/bsc/p2p/netutil"
 )
 
 const (

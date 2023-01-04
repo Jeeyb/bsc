@@ -22,16 +22,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/les/fetcher"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/Jeeyb/bsc/common"
+	"github.com/Jeeyb/bsc/consensus"
+	"github.com/Jeeyb/bsc/core"
+	"github.com/Jeeyb/bsc/core/rawdb"
+	"github.com/Jeeyb/bsc/core/types"
+	"github.com/Jeeyb/bsc/ethdb"
+	"github.com/Jeeyb/bsc/les/fetcher"
+	"github.com/Jeeyb/bsc/light"
+	"github.com/Jeeyb/bsc/log"
+	"github.com/Jeeyb/bsc/p2p/enode"
 )
 
 const (

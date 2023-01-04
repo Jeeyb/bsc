@@ -1,4 +1,4 @@
-module github.com/ethereum/go-ethereum
+module github.com/Jeeyb/bsc
 
 go 1.17
 

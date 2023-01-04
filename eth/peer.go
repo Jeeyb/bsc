@@ -20,11 +20,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/eth/protocols/trust"
+	"github.com/Jeeyb/bsc/eth/protocols/trust"
 
-	"github.com/ethereum/go-ethereum/eth/protocols/diff"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
+	"github.com/Jeeyb/bsc/eth/protocols/diff"
+	"github.com/Jeeyb/bsc/eth/protocols/eth"
+	"github.com/Jeeyb/bsc/eth/protocols/snap"
 )
 
 // ethPeerInfo represents a short summary of the `eth` sub-protocol metadata known

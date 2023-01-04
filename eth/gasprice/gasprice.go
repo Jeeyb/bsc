@@ -22,13 +22,13 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/Jeeyb/bsc/common"
+	"github.com/Jeeyb/bsc/core"
+	"github.com/Jeeyb/bsc/core/types"
+	"github.com/Jeeyb/bsc/event"
+	"github.com/Jeeyb/bsc/log"
+	"github.com/Jeeyb/bsc/params"
+	"github.com/Jeeyb/bsc/rpc"
 	lru "github.com/hashicorp/golang-lru"
 )
 

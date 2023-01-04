@@ -26,11 +26,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Jeeyb/bsc/common"
+	"github.com/Jeeyb/bsc/ethdb"
+	"github.com/Jeeyb/bsc/log"
+	"github.com/Jeeyb/bsc/metrics"
+	"github.com/Jeeyb/bsc/params"
 	"github.com/prometheus/tsdb/fileutil"
 )
 

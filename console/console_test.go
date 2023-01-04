@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/Jeeyb/bsc/common"
+	"github.com/Jeeyb/bsc/consensus/ethash"
+	"github.com/Jeeyb/bsc/console/prompt"
+	"github.com/Jeeyb/bsc/core"
+	"github.com/Jeeyb/bsc/eth"
+	"github.com/Jeeyb/bsc/eth/ethconfig"
+	"github.com/Jeeyb/bsc/internal/jsre"
+	"github.com/Jeeyb/bsc/miner"
+	"github.com/Jeeyb/bsc/node"
 )
 
 const (

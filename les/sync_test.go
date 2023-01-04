@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Jeeyb/bsc/accounts/abi/bind"
+	"github.com/Jeeyb/bsc/core"
+	"github.com/Jeeyb/bsc/core/types"
+	"github.com/Jeeyb/bsc/crypto"
+	"github.com/Jeeyb/bsc/light"
+	"github.com/Jeeyb/bsc/params"
 )
 
 // Test light syncing which will download all headers from genesis.

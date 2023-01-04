@@ -27,17 +27,17 @@ import (
 
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/ethereum/go-ethereum/accounts/external"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/accounts/scwallet"
-	"github.com/ethereum/go-ethereum/accounts/usbwallet"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Jeeyb/bsc/accounts/external"
+	"github.com/Jeeyb/bsc/accounts/keystore"
+	"github.com/Jeeyb/bsc/accounts/scwallet"
+	"github.com/Jeeyb/bsc/accounts/usbwallet"
+	"github.com/Jeeyb/bsc/cmd/utils"
+	"github.com/Jeeyb/bsc/eth/ethconfig"
+	"github.com/Jeeyb/bsc/internal/ethapi"
+	"github.com/Jeeyb/bsc/log"
+	"github.com/Jeeyb/bsc/metrics"
+	"github.com/Jeeyb/bsc/node"
+	"github.com/Jeeyb/bsc/params"
 	"github.com/naoina/toml"
 )
 

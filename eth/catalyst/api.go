@@ -22,13 +22,13 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/beacon"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/Jeeyb/bsc/common"
+	"github.com/Jeeyb/bsc/core/beacon"
+	"github.com/Jeeyb/bsc/core/types"
+	"github.com/Jeeyb/bsc/eth"
+	"github.com/Jeeyb/bsc/log"
+	"github.com/Jeeyb/bsc/node"
+	"github.com/Jeeyb/bsc/rpc"
 )
 
 // Register adds catalyst APIs to the full node.
